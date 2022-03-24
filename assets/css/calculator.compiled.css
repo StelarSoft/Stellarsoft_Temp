@@ -1,0 +1,32 @@
+ul#tabs {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul#tabs li {
+  utline: 1px;
+  width: 90px;
+  display: inline-block;
+  background: #0451c2;
+  color: white;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px 25px 5px 15px;
+  clip-path: circle(65.9% at 50% 66%);
+}
+
+ul#tabs li.active {
+  background: #0d6efd;
+  color: white;
+}
+
+#tab-content > div {
+  padding: 10px;
+  text-align: left;
+  min-height: 200px;
+  background: #0d6efd;
+}

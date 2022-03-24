@@ -1,0 +1,31 @@
+.services-section {
+  height: 500px;
+}
+
+.services-border.active {
+  outline: solid 0px deepskyblue;
+  transition: outline 0.1s ease-in-out !important;
+  border-radius: 79px;
+  outline-width: 3px;
+}
+
+.services-border {
+  outline: solid 0px deepskyblue;
+  transition: outline 0.1s ease-in-out !important;
+  border-radius: 79px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.services-border active {
+  outline-width: 3px;
+}
+
+.services-border active {
+  outline-width: 3px;
+}
+
+.services-border:hover {
+  /*outline-width: 3px;*/
+}
+
