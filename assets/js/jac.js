@@ -20,7 +20,7 @@
       scrollY: {
         translateY: [
           ["0", "elOutY"],
-          [0, "elOutY*1.3"],
+          [0, "elOutY"],
         
         ]
       }
