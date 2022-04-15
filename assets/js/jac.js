@@ -26,7 +26,7 @@ window.onload = function () {
       scrollY: {
         translateY: [
           ["0", "elOutY"],
-          [0, "elOutY"],
+          ["0", "elOutY"],
         
         ]
       }
