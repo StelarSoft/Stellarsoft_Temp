@@ -1,5 +1,11 @@
 
-  window.onload = function () {
+let $logo = document.getElementById("logo-scroll");
+let $title = $("#title-scoll");
+let $planet = $("#planet1");
+let $navBar = $("navBar");
+
+
+window.onload = function () {
     lax.init()
 
     // Add a driver that we use to control our animations
