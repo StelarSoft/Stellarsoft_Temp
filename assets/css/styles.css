@@ -54,11 +54,8 @@ html {
 }
 
 .card-back {
-  /*position: absolute;*/
   width: 622px;
   height: 745px;
-  /*left: 877px;*/
-  /*top: 926px;*/
   background: #022A54;
   box-shadow: -14px -11px 21px rgba(0, 66, 136, 0.25), 14px 11px 21px rgba(1, 22, 44, 0.25);
   border-radius: 51px;
@@ -72,10 +69,5 @@ html {
   font-size: 20px;
   color: #eeeeee;
   line-height: 1.5;
-}
-
-img {
-  width: inherit;
-  height: 300px;
 }
 
