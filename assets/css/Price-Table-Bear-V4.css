@@ -1,0 +1,55 @@
+#price-table-list-bear {
+  text-align: left;
+}
+
+#price-table-list-internal {
+  margin-left: 30px;
+  color: white;
+}
+
+#price-table-block-bear {
+  display: inline-block;
+  width: 520px;
+  margin: 10px;
+}
+
+@media (max-width: 1200px) {
+  #price-table-block-bear {
+    display: inline-block;
+    width: 520px;
+  }
+}
+
+@media (max-width: 500px) {
+  #price-table-block-bear {
+    display: inline-block;
+    width: 92%;
+  }
+}
+
+#price-table-hr-bear {
+  width: 460px;
+  background: white;
+}
+
+@media (max-width: 1450px) {
+  #price-table-hr-bear {
+    width: 390px;
+    background: white;
+  }
+}
+
+@media (max-width: 1400px) {
+  #price-table-hr-bear {
+    width: 360px;
+    background: white;
+  }
+}
+
+@media (max-width: 500px) {
+  #price-table-hr-bear {
+    width: 84%;
+    background: white;
+  }
+}
+

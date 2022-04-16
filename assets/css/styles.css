@@ -68,3 +68,14 @@ html {
   filter: drop-shadow(10px 10px 9px rgba(0,0,0,0.31));
 }
 
+.jumbotron {
+  font-size: 20px;
+  color: #eeeeee;
+  line-height: 1.5;
+}
+
+img {
+  width: inherit;
+  height: 300px;
+}
+
