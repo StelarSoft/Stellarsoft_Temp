@@ -2,7 +2,7 @@
 const quantityInput = document.querySelector('[name=quantity]');
 const total = document.querySelector('.total');
 const quantityLabel = document.querySelector('.quantity-label');
-var initial = 0;
+var initial = 1000;
 
 // create functions we'll need
 
