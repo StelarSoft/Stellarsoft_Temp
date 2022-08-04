@@ -8,12 +8,12 @@ var initial = 1000;
 
 function calculateCost() {
   if( document.getElementById("customRadio1").checked == true ){
-        initial = 3000; 
+        initial =1000; 
         total.innerText = "$" + initial.toFixed(2);}
   if( document.getElementById("customRadio2").checked == true ){
-        initial = 5000; }
+        initial = 3000; }
   const quantity = quantityInput.value;
-  const cost = initial * quantity;
+  const cost = initial * (quantity*0.75);
   console.log(cost);
   total.innerText = "TTD$" + cost.toFixed(2);
 }

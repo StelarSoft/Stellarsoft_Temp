@@ -1,6 +1,6 @@
 // grab everything we need
 const advertisingtotal = document.querySelector('.advertisingtotal');
-document.getElementById("adbtn").onclick = function() {CalculateAd()};;
+document.getElementById("adbtn").onclick = function() {CalculateAd()};
 var advertisinginitial,smm,logo,aa = 0;
 
 // create functions we'll need
